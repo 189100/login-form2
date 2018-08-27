@@ -1,0 +1,94 @@
+ <!DDOCTYPE HTML>
+<html>
+<head>
+   <style>
+     body{
+     	     background-color:#e8f3f8;
+     	   }
+     h1{ text-align:center;
+         front-size:12px;
+         color:silver;
+       }
+     form{ margin:20px auto;
+           with:320px;
+           color:steelblue;
+         }
+     input{
+     	      padding:10px;
+     	      front-size:inherit;
+     	     }
+     
+     input[type="text"]{
+     	                   display:block;
+     	                   margin-botton:25px;
+     	                   width:100%;
+     	                   border:2px solid steelblue;
+     	                   background:#fafcd9;
+     	                  }
+    
+     input[type="password"]{
+     	                   display:block;
+     	                   margin-botton:25px;
+     	                   width:100%;
+     	                   border:2px solid steelblue;
+     	                   background:#fafcd9;
+     	                  }
+    
+     input[type="email"]{
+     	                   display:block;
+     	                   margin-botton:25px;
+     	                   width:100%;
+     	                   border:2px solid steelblue;
+     	                   background:#fafcd9;
+     	                  }
+     	                  
+     input[type="radio"]:first-child{
+     	                                margin-left:0;
+     	                               }
+     input[type="submit"]{
+     	                     width:344px;
+     	                     height:45px;
+     	                     border:none;
+     	                     background:steelblue;
+     	                     color:white;
+     	                    }
+     input[type="submit"]:focus{
+     	                     width:344px;
+     	                     height:45px;
+     	                     border:solid steelblue;
+     	                     background:white;
+     	                     color:steelblue;
+     	                    }
+     input:focus{
+     	            background:white;
+     	           }
+     input[type="radio"]:checked+label{
+     	                                  font-weight:bold;
+     	                                  font-size:18px;
+     	                                 }                 
+     	                                  	     
+     	                                  	       
+   
+   </style>
+     
+   
+</head>
+   <body>
+      <h1> LOGIN FORM </h1>
+      <form>
+         <input type="text" placeholder="firstname">
+         <input type="text" placeholder="lastname">
+         <input type="email" placeholder="email">     
+         <input type="password" placeholder="password">
+         <input type="password" placeholder="conform password">
+         
+      <div>
+         <input type="radio" id="male" name="gender"><label for="male">male</label>
+         <input type="radio" id="female" name="gender"><label for="female">female</lable>
+         
+      </div>
+         <input type="submit" name="submit">
+         
+     </form>
+   </body>
+ </html>    
